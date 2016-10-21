@@ -14,6 +14,7 @@
 		E743893F1D98371200DCC2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E743893D1D98371200DCC2BE /* LaunchScreen.storyboard */; };
 		E743894A1D98371200DCC2BE /* RaceSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74389491D98371200DCC2BE /* RaceSyncTests.swift */; };
 		E74389551D98371200DCC2BE /* RaceSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74389541D98371200DCC2BE /* RaceSyncUITests.swift */; };
+		E7D750371DBACA080078C601 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D750361DBACA080078C601 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E74389501D98371200DCC2BE /* RaceSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74389541D98371200DCC2BE /* RaceSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceSyncUITests.swift; sourceTree = "<group>"; };
 		E74389561D98371200DCC2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D750361DBACA080078C601 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				E74389361D98371200DCC2BE /* ViewController.swift */,
 				E74389381D98371200DCC2BE /* Main.storyboard */,
 				E743893B1D98371200DCC2BE /* Assets.xcassets */,
+				E7D750361DBACA080078C601 /* Images.xcassets */,
 				E743893D1D98371200DCC2BE /* LaunchScreen.storyboard */,
 				E74389401D98371200DCC2BE /* Info.plist */,
 			);
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					E74389301D98371200DCC2BE = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					E74389441D98371200DCC2BE = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E74389301D98371200DCC2BE;
 					};
 					E743894F1D98371200DCC2BE = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E74389301D98371200DCC2BE;
 					};
 				};
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E743893F1D98371200DCC2BE /* LaunchScreen.storyboard in Resources */,
+				E7D750371DBACA080078C601 /* Images.xcassets in Resources */,
 				E743893C1D98371200DCC2BE /* Assets.xcassets in Resources */,
 				E743893A1D98371200DCC2BE /* Main.storyboard in Resources */,
 			);
@@ -405,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multigp.RaceSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -416,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multigp.RaceSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -427,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multigp.RaceSyncTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceSync.app/RaceSync";
 			};
 			name = Debug;
@@ -439,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multigp.RaceSyncTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceSync.app/RaceSync";
 			};
 			name = Release;
@@ -450,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multigp.RaceSyncUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = RaceSync;
 			};
 			name = Debug;
@@ -461,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.multigp.RaceSyncUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = RaceSync;
 			};
 			name = Release;
@@ -484,6 +497,7 @@
 				E743895B1D98371200DCC2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E743895C1D98371200DCC2BE /* Build configuration list for PBXNativeTarget "RaceSyncTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +506,7 @@
 				E743895E1D98371200DCC2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E743895F1D98371200DCC2BE /* Build configuration list for PBXNativeTarget "RaceSyncUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +515,7 @@
 				E74389611D98371200DCC2BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
